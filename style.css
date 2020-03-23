@@ -17,6 +17,7 @@ body {
   display: inline-block;
   width: 80%;
   margin-right: 10px;
+  font-weight: bold;
 }
 
 .post-section {
@@ -30,6 +31,7 @@ body {
 .post-image {
   width: 30%;
   margin-right: 10px;
+  box-shadow: grey 2px 2px;
 }
 
 .post-description {
