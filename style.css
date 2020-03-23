@@ -25,6 +25,7 @@ body {
   box-shadow: lightgray 1px 1px;
   background: white;
   width: 30%;
+  justify-content: center;
 }
 .post-image {
   width: 30%;
@@ -39,4 +40,16 @@ body {
 .fa-thumbs-up,
 .fa-thumbs-down {
   color: rgb(78, 78, 78);
+}
+
+@media screen and (max-width: 1200px) {
+  .post-section {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 876px) {
+  .post-section {
+    width: 60%;
+    float: left;
+  }
 }
