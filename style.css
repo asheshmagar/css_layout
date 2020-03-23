@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+2:400,500,600,700,800&display=swap");
+
+body {
+  background-color: lightgoldenrodyellow;
+  font-family: "Baloo 2", cursive;
+}
+.post-title {
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+.post-title__icon {
+  display: inline-block;
+  width: 6%;
+  border-radius: 50%;
+}
+.post-title__subtitle {
+  display: inline-block;
+  width: 90%;
+  padding-right: 10px;
+}
+
+.post-section {
+  margin: 20px 20px;
+  display: inline-block;
+  box-shadow: lightgray 1px 1px;
+  background: white;
+  width: 30%;
+}
+.post-image {
+  width: 30%;
+}
+
+.post-description {
+  display: inline-block;
+  width: 65%;
+  text-align: left;
+}
+
+.fa-thumbs-up,
+.fa-thumbs-down {
+  color: rgb(78, 78, 78);
+}
