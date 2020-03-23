@@ -6,17 +6,17 @@ body {
 }
 .post-title {
   display: inline-block;
-  vertical-align: text-bottom;
 }
 .post-title__icon {
   display: inline-block;
+  margin-left: 10px;
   width: 6%;
   border-radius: 50%;
 }
 .post-title__subtitle {
   display: inline-block;
-  width: 90%;
-  padding-right: 10px;
+  width: 80%;
+  margin-right: 10px;
 }
 
 .post-section {
@@ -29,12 +29,14 @@ body {
 }
 .post-image {
   width: 30%;
+  margin-right: 10px;
 }
 
 .post-description {
   display: inline-block;
-  width: 65%;
+  width: 60%;
   text-align: left;
+  margin-left: 10px;
 }
 
 .fa-thumbs-up,
