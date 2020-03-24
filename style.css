@@ -9,13 +9,16 @@ body {
   font-family: "Bellota Text", cursive;
 }
 .posts-header > h2 {
-  margin-left: 1em;
+  margin-left: 2.5em;
   margin-top: 2em;
 }
 .posts {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 450px);
+  grid-template-columns: repeat(auto-fill, 425px);
+  justify-items: center;
+  margin-left: 2.5em;
 }
+
 .post-section {
   margin: 1em 1em;
   background: white;
