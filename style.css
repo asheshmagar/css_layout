@@ -20,8 +20,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  /* flex-direction: column; */
-  /* row-gap: 10%; */
+
 }
 .post-title__icon {
   width: 10%;
